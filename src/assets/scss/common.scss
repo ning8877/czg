@@ -1,0 +1,106 @@
+.el-main{
+  padding-top:0;
+}
+// button
+.el-button--plain:focus, .el-button--plain:hover {
+  color: #ff903d;
+  border-color: #ffdec5;
+  background-color: #fff4ec;
+}
+.el-button--primary{
+  color:#fff;
+  background-color:#ff903d;
+  border-color: #ff903d;
+}
+.el-button--primary:hover,.el-button--primary:focus{
+  color: #fff;
+  background-color: #ffa664;
+  border-color: #ffa664;
+}
+.el-button--primary:active{
+  outline: 0;
+}
+.el-button--primary.is-active, .el-button--primary:active{
+  color:#fff;
+  background:#e68237;
+  border-color:#e68237;
+}
+
+
+// 分页部分
+.el-pagination__sizes .el-input .el-input__inner:hover{
+  border-color: #ff903d;
+}
+.el-pager li.number:hover{
+  color: #ff903d;
+}
+.el-pager li.active{
+  color: #ff903d;
+  cursor: default;
+}
+
+// 下拉
+.el-select-dropdown.is-multiple .el-select-dropdown__item.selected,.el-select-dropdown__item.selected {
+  color: #ff903d;
+  background-color: #FFF;
+}
+
+.el-select .el-input.is-focus .el-input__inner {
+  border-color: #ff903d;
+}
+.el-select .el-input__inner:focus {
+  border-color: #ff903d;
+}
+.el-icon-switch-button:before{
+  margin-left: 15px;
+  height: 25px;
+  line-height: 64px;
+  color: #000000;
+}
+
+
+// tabke
+.el-table td{
+  padding:5px 0px;
+}
+.el-table{
+  border:2px solid #f3f3f3;
+  width:100%;
+  margin-bottom:15px; 
+  overflow: hidden; 
+}
+
+/* input */
+.el-input .el-input__inner:hover,.el-textarea__inner:hover{
+  border-color: #ff903d;
+}
+ .el-input .el-input__inner:focus,.el-textarea__inner:focus {
+  border-color: #ff903d;
+} 
+.el-input .el-input__inner:visited,.el-textarea__inner:visited{
+  border-color: #ff903d;
+}
+
+/* upload */
+.edit .el-upload--picture-card:hover, .el-upload:focus {
+  border-color: #ff903d;
+  color: #ff903d;
+}
+
+// checkbox
+.el-checkbox__input.is-checked+.el-checkbox__label{
+  color:#ff903d
+}
+.el-checkbox__input.is-checked .el-checkbox__inner{
+  background-color: #ff903d;
+  border-color: #ff903d;
+}
+.el-checkbox__inner:hover{
+  border-color: #ff903d;
+}
+.el-checkbox__input.is-focus .el-checkbox__inner{
+  border-color: #ff903d;
+}
+
+
+
